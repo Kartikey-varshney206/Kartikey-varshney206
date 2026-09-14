@@ -1,5 +1,5 @@
 <div align="center">
-    <h3><code>kartikey@github ~ $ Learner</code></h3>
+    <h3><code>kartikey@github ~ $ Greeting</code></h3>
     <table>
         <tr>
             <td valign="top"><img src="./kartikey-ascii.svg" width="370" /></td>
@@ -9,6 +9,7 @@
 
 </div>
 <div align="center">
+<h3><code>kartikey@github ~ $ Stats</code></h3>
 <img src="./stats.svg" width="620" alt="Contributions in the last year"/>
 
 [Instagram](https://www.instagram.com/_.karttikeyyyy._/) &nbsp;·&nbsp;
