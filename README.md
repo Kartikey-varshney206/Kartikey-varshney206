@@ -20,9 +20,9 @@
 
 <img src="./stats.svg" width="620" alt="Contributions in the last year"/>
 
-[Instagram](https://www.instagram.com/_.karttikeyyyy._/) &nbsp;·&nbsp;
+[Instagram](https://www.instagram.com/_.karttikeyyyy._/) &nbsp;
 
-[Linkedin](https://www.linkedin.com/in/kartikey-varshney-206u/) &nbsp;·&nbsp;
+[Linkedin](https://www.linkedin.com/in/kartikey-varshney-206u/) &nbsp;
 
 [Email](varshneykartikey600@gamil.com)
 
