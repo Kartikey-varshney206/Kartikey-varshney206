@@ -104,7 +104,9 @@ MON = ["jan", "feb", "mar", "apr", "may", "jun",
 # ---------------------------------------------------------------- data
 
 def window():
-    today = datetime.now(timezone.utc).date()
+    # Use local time for 'today' so contributions made on the current local day 
+    # (which might still be tomorrow in UTC) are included in the GitHub API query.
+    today = datetime.now().date()
     start = today - timedelta(days=364)
     return (f"{start.isoformat()}T00:00:00Z", f"{today.isoformat()}T23:59:59Z")
 
