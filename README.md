@@ -22,7 +22,15 @@
 > Computer Science & AI/ML student from Bangalore, India.<br>
 > Building practical AI systems that solve real-world problems.
 
-I explore AI, machine learning, computer vision, and software development — turning ideas into working projects and prototypes. Right now I'm focused on building intelligent systems that combine AI with real-world applications, including<br>
+I'm focused on Machine Learning, Deep Learning, Computer Vision, Generative AI, and MLOps, with a strong interest in building AI that works beyond notebooks. I enjoy taking an idea from a rough concept → model → application → real-world prototype.<br>
+
+I've built projects across AI, computer vision, robotics, and full-stack development — including an AI-powered assistive Smart Blind Stick with obstacle detection, GPS, fall detection and emergency alerts, along with face recognition, OCR, Air Canvas, and other ML/CV systems.<br>
+
+I've also participated in hackathons and AI events, where I enjoy working under pressure, building quickly, and turning ideas into usable solutions. I recently won a hackathon, strengthening my interest in solving real-world problems with AI and building products rather than just models.<br>
+
+Currently learning deeper into Neural Networks, LLMs, Generative AI, AI Agents, model deployment, and MLOps — while continuously building, experimenting, and improving.<br>
+
+> Build. Break. Learn. Repeat.
 
 <img src="./hd-stack.svg" width="620" alt="stack"/>
 
