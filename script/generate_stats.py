@@ -447,6 +447,26 @@ def draw_year(s):
 
 # ---------------------------------------------------------------- main
 
+def load_dotenv():
+    """Read a .env file from the repository root and inject into os.environ."""
+    repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    env_path = os.path.join(repo_root, ".env")
+    if not os.path.exists(env_path):
+        return
+    with open(env_path, encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line or line.startswith("#"):
+                continue
+            if "=" in line:
+                key, _, val = line.partition("=")
+                key, val = key.strip(), val.strip()
+                # Remove surrounding quotes if present
+                if len(val) >= 2 and val[0] == val[-1] and val[0] in ('"', "'"):
+                    val = val[1:-1]
+                os.environ.setdefault(key, val)
+
+
 def write(path, svg):
     old = ""
     if os.path.exists(path):
@@ -460,10 +480,11 @@ def write(path, svg):
 
 
 def main():
+    load_dotenv()
     token = os.environ.get("GITHUB_TOKEN")
     if not token:
         sys.exit("GITHUB_TOKEN is not set")
-    login = os.environ.get("GH_LOGIN", "andriidrok1")
+    login = os.environ.get("GH_LOGIN", "Kartikey-varshney206")
     out_dir = os.environ.get("OUT_DIR", ".")
 
     s = summarise(fetch(login, token))
